@@ -1006,6 +1006,27 @@ header {
   }
 }
 
+  .menu-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-images img {
+  width: 100%;
+  display: block;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .menu-images {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
 </style>
 }
 </style>
@@ -1203,112 +1224,13 @@ onclick="gtag('event','conversion',{'send_to':'AW-16600423114/guq9CNqT8r4bEMq12e
     <h2 class="section-title">A complete menu, <em>done right.</em></h2>
   </div>
 
-  <div class="menu-grid">
+ <div class="menu-images">
 
-    <!-- LEFT: DRINKS -->
-    <div class="menu-left">
+  <img src="images/menu-1.png" alt="Audrey Coffee Menu">
 
-      <div class="menu-cat-title">Coffee</div>
+  <img src="images/menu-2.png" alt="Audrey Coffee Menu">
 
-      <div class="menu-item"><span>Espresso</span><span>2,60&nbsp;€</span></div>
-      <div class="menu-item"><span>Doppio</span><span>3,60&nbsp;€</span></div>
-      <div class="menu-item"><span>Americano</span><span>3,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Café Crema</span><span>3,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Cappuccino</span><span>3,90 / 4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Flat White</span><span>4,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Cortado</span><span>3,40&nbsp;€</span></div>
-      <div class="menu-item"><span>Long Black</span><span>4,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Latte</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Milchkaffee</span><span>4,50&nbsp;€</span></div>
-
-      <div class="menu-cat-title">Iced</div>
-
-      <div class="menu-item"><span>Iced Latte</span><span>5,20&nbsp;€</span></div>
-      <div class="menu-item"><span>Iced Flat White</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Iced Cappuccino</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Iced Americano</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Cold Brew</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Espresso Tonic</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Affogato</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Iced Matcha Latte</span><span>5,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Iced Chai Latte</span><span>5,50&nbsp;€</span></div>
-
-      <div class="menu-cat-title">Chocolate & Others</div>
-
-      <div class="menu-item"><span>Hot Chocolate</span><span>3,00 / 4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Babycino</span><span>Free</span></div>
-      <div class="menu-item"><span>Chai Latte</span><span>5,00&nbsp;€</span></div>
-      <div class="menu-item"><span>Kurkuma Latte</span><span>5,00&nbsp;€</span></div>
-      <div class="menu-item"><span>Matcha Latte</span><span>5,00&nbsp;€</span></div>
-      <div class="menu-item"><span>Mocaccino</span><span>5,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Dirty Chai</span><span>5,90&nbsp;€</span></div>
-
-      <div class="menu-cat-title">Tea</div>
-
-      <div class="menu-item"><span>Black Darjeeling</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>African Earl Grey</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Ceylon Breakfast</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Mate Boost</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Arabian Mint</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Masala Chai</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Wild Fruit</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Kamille</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Ginger Lemon</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Frischer Ingwer</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Frische Minze</span><span>4,90&nbsp;€</span></div>
-
-      <div class="menu-cat-title">Cold Drinks</div>
-
-      <div class="menu-item"><span>Elephant Bay</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Schorlen</span><span>3,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Charitea</span><span>4,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Iced Butterfly Tea</span><span>4,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Vöslauer Sparkling</span><span>3,80 / 6,50&nbsp;€</span></div>
-      <div class="menu-item"><span>Vöslauer Still</span><span>3,80 / 6,50&nbsp;€</span></div>
-
-    </div>
-
-    <!-- RIGHT: KITCHEN -->
-    <div class="menu-right">
-
-      <div class="menu-cat-title">Kitchen</div>
-
-      <div class="menu-item"><span>Eggs Audrey</span><span>10,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Eggs Benedict</span><span>15,90 / 8,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Eggs Pablo</span><span>15,90 / 8,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Eggs Eden</span><span>10,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Eggs Aurélie</span><span>17,90 / 9,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>French Toast</span><span>15,90 / 8,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Adam’s Toast</span><span>16,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Omar’s Toast</span><span>15,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Turkish Eggs</span><span>13,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Porridge</span><span>9,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Greek Yoghurt</span><span>8,50&nbsp;€</span></div>
-      <div class="menu-item"><span>French Breakfast</span><span>9,50&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Croque Monsieur</span><span>10,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Pancakes Marrakech</span><span>8,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Shakshuka</span><span>13,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Spicy Croissata</span><span>12,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Quiche</span><span>6,90&nbsp;€</span></div>
-
-      <div class="menu-item"><span>Tomate Mozzarella Panini</span><span>7,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Fromage Panini</span><span>8,90&nbsp;€</span></div>
-      <div class="menu-item"><span>Black Forest Panini</span><span>9,90&nbsp;€</span></div>
-
-    </div>
-
-  </div>
-
-
+</div>
 
 </section>
 
