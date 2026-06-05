@@ -964,6 +964,25 @@ header {
   position: relative;
   z-index: 2;
 }
+  .hero-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-link:hover {
+  opacity: 0.6;
+  transform: translateY(-2px);
+}
+
+.hero-link span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 </style>
 }
 </style>
